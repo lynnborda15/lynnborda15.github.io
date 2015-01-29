@@ -1,3 +1,20 @@
-h1 {
-			color:pink;
-		}
+
+body{ 
+font-family: 'Oswald', sans-serif;
+}
+ 
+
+ a: {
+  color: #BF4158;
+  text-decoration: none;
+  }
+a:focus {
+  background: green
+}
+ a:visited{
+  color: #A62419;
+  }
+a:hover{
+  background: #aA6242F;
+  color: #2639A6;
+  }
