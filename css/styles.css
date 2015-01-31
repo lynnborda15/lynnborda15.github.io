@@ -1,20 +1,37 @@
 
 body{ 
-font-family: 'Oswald', sans-serif;
+	background: pink;
 }
  
+ nav{
+ 	text-align: center;
+ }
 
- a: {
-  color: #BF4158;
-  text-decoration: none;
-  }
-a:focus {
-  background: green
+h1{
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Lobster', cursive;
+	color: #0000;
 }
- a:visited{
-  color: #A62419;
-  }
-a:hover{
-  background: #aA6242F;
-  color: #2639A6;
-  }
+ /*Home Page*/
+ .profile-photo{
+ 	display: block;
+ 	max-width: 500px;
+ 	margin:  auto 15px;
+ 	border-radius: 40%;
+ }
+.homepage{
+	text-align: left;
+	margin-left: 80px;
+	font-family: 'Great Vibes', cursive;
+	font-size: 65px;
+	
+}
+
+header{
+	background: #E86491;
+	}
+
+.minor{
+	text-align: center;
+}
