@@ -1,17 +1,50 @@
 
-body{ 
-	background: pink;
+
+
+body {
+	background-color: #FFFAE6;
 }
- 
+.pattern {
+    height: 5%;
+    background-image:
+        linear-gradient(135deg, #92C8BF 25%, transparent 25%),
+        linear-gradient(225deg, #92C8BF 25%, transparent 25%),
+        linear-gradient(45deg, #92C8BF 25%, transparent 25%),
+        linear-gradient(315deg, #92C8BF 25%, transparent 25%);
+    background-position:
+        25px 0,
+        25px 0,
+        0 0,
+        0 0;
+    background-size: 50px 50px;
+    background-repeat: repeat-x;
+    background-color: #FFFAE6;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
  nav{
  	text-align: center;
  }
 
-h1{
-	text-align: center;
-	font-size: 40px;
+h1 {
+	text-align: left;
+	font-size: 50px;
+	font-family: 'Alegreya', serif;
+	color: #BC6D67;
+	margin: 15px;
+}
+
+
+h2 {
 	font-family: 'Lobster', cursive;
-	color: #0000;
+	color: #92C8BF;
+}
+
+p {
+	font-family: 'Asap', sans-serif;
 }
  /*Home Page*/
  .profile-photo{
@@ -47,6 +80,8 @@ section {
 .color-1,
 .color-2,
 .color-3,
+.color-4,
+.color-5,
 .pattern-1,
 .pattern-2,
 .pattern-3, 
@@ -72,20 +107,33 @@ h2, h3, p {
 .clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
 
 .style-tile .color-1 {
-	background: red;
+	background: #291436;
 
 }
 
 .style-tile .color-2 {
-	background: white;
+	background: #E2DCAD;
+	
+}
+
+.style-tile .color-3 {
+	background: #FFFAE6;
+	
+}
+
+.style-tile .color-4 {
+	background: #92C8BF;
+	
+}
+
+.style-tile .color-5 {
+	background: #BC6D67;
 	
 }
 
 body.style-tile {
 	font-family: 'Bree Serif', serif;
 }
-
-
 
 
 
